@@ -13,7 +13,7 @@ const connect = function() {
   });
   // name message at connection on server
   conn.on('connect', () => {
-    conn.write('Name: CMD ');
+    conn.write('Name: EDM ');
   });
   // quit message
   conn.on('data', (data) => {
